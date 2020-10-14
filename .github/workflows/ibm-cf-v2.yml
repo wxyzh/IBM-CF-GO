@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
   repository_dispatch:
   schedule:
-    - cron: 15 20 * * 7
+    - cron: 15 20 * * 6
 
 jobs:
   deploy:
